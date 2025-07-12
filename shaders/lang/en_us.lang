@@ -1,4 +1,4 @@
-option.INFO = DJARUUN's Fantastic Shaders
+option.INFO = Blonk §c§o§lU§6§o§ll§e§o§lt§a§o§lr§b§o§la§9§o§lF§d§o§li§c§o§ln§6§o§le
 value.INFO.0 = v0.0.1
 
 screen.ATMOSPHERE = Atmosphere
@@ -53,4 +53,9 @@ screen.WORLD = World
     option.WIND_AMPLITUDE = Wind Amplitude
     option.WIND_AMPLITUDE.comment = Default: 0.10
 
+screen.MATERIALS = Materials
+    option.NORMALS = Normals
+    option.NORMALS.comment = Default: On
+
 screen.MISC = Misc
+    screen.INTERNAL = Internal

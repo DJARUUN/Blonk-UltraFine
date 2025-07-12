@@ -18,6 +18,12 @@
 #define BORDER_FOG_START 0.90 //[0.25 0.50 0.75 0.80 0.85 0.90 0.95]
 
 #define WIND
+#ifdef WIND
+#endif
 
 #define WIND_SPEED 0.05 //make this be m/s!!! (would be very cool i think) [0.01 0.02 0.03 0.04 0.05 0.07 0.10 0.15 0.30 0.50 0.75 1.00 1.50 2.00]
 #define WIND_AMPLITUDE 0.10 //[0.02 0.05 0.10 0.15 0.20 0.30 0.50 0.75 1.00]
+
+#define NORMALS
+
+#define SPECULARITY

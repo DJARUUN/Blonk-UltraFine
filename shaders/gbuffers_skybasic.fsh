@@ -17,6 +17,8 @@ in vec4 glcolor;
 #include "/lib/common/helpers/transforms.glsl"
 #include "/lib/common/helpers/atmospherics.glsl"
 
+const float sunPathRotation = 30.0;
+
 /* RENDERTARGETS: 0 */
 layout(location = 0) out vec4 outColor0;
 
