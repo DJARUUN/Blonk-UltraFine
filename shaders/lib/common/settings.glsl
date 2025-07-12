@@ -1,0 +1,23 @@
+#define INFO 0 //[0]
+
+#define FOG
+
+#define FOG_START 65.0 //[10.0 20.0 50.0 65.0 75.0 100.0]
+#define FOG_END 200.0 //[20.0 50.0 65.0 75.0 100.0 150.0 200.0 500.0 1000.0]
+#define FOG_MAX 0.25 //[0.00 0.15 0.25 0.35 0.50 0.65 0.75 0.85 1.00]
+
+#define FOG_START_RAIN 50.0 //[10.0 20.0 50.0 65.0 75.0 100.0]
+#define FOG_END_RAIN 150.0 //[20.0 50.0 65.0 75.0 100.0 150.0 200.0 500.0 1000.0]
+#define FOG_MAX_RAIN 0.50 //[0.00 0.15 0.25 0.35 0.50 0.65 0.75 0.85 1.00]
+
+#define FOG_START_THUNDER 20.0 //[10.0 20.0 50.0 65.0 75.0 100.0]
+#define FOG_END_THUNDER 75.0 //[20.0 50.0 65.0 75.0 100.0 150.0 200.0 500.0 1000.0]
+#define FOG_MAX_THUNDER 0.75 //[0.00 0.15 0.25 0.35 0.50 0.65 0.75 0.85 1.00]
+
+#define BORDER_FOG
+#define BORDER_FOG_START 0.90 //[0.25 0.50 0.75 0.80 0.85 0.90 0.95]
+
+#define WIND
+
+#define WIND_SPEED 0.05 //make this be m/s!!! (would be very cool i think) [0.01 0.02 0.03 0.04 0.05 0.07 0.10 0.15 0.30 0.50 0.75 1.00 1.50 2.00]
+#define WIND_AMPLITUDE 0.10 //[0.02 0.05 0.10 0.15 0.20 0.30 0.50 0.75 1.00]

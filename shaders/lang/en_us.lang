@@ -1,0 +1,56 @@
+option.INFO = DJARUUN's Fantastic Shaders
+value.INFO.0 = v0.0.1
+
+screen.ATMOSPHERE = Atmosphere
+    option.FOG = Fog
+    option.FOG.comment = Default: On
+
+    screen.FOG_CONTROLS = Fog Controls
+        screen.FOG_CONTROLS_CLEAR = Clear
+            option.FOG_START = Fog Start
+            option.FOG_START.comment = Default: 65.0
+
+            option.FOG_END = Fog End
+            option.FOG_END.comment = Default: 200.0
+
+            option.FOG_MAX = Fog Max
+            option.FOG_MAX.comment = Default: 0.25
+
+        screen.FOG_CONTROLS_RAIN = Rain
+            option.FOG_START_RAIN = Fog Start
+            option.FOG_START_RAIN.comment = Default: 50.0
+
+            option.FOG_END_RAIN = Fog End
+            option.FOG_END.comment = Default: 150.0
+
+            option.FOG_MAX_RAIN = Fog Max
+            option.FOG_MAX_RAIN.comment = Default: 0.50
+
+        screen.FOG_CONTROLS_THUNDER = Thunder
+            option.FOG_START_THUNDER = Fog Start
+            option.FOG_START_THUNDER.comment = Default: 20.0
+
+            option.FOG_END_THUNDER = Fog End
+            option.FOG_END_THUNDER.comment = Default: 75.0
+
+            option.FOG_MAX_THUNDER = Fog Max
+            option.FOG_MAX_THUNDER.comment = Default: 0.75
+
+    option.BORDER_FOG = Border Fog
+    option.BORDER_FOG.comment = Default: On
+
+    option.BORDER_FOG_START = Border Fog Start
+    option.BORDER_FOG_START.comment = Default: 0.90%
+    suffix.BORDER_FOG_START = %
+
+screen.WORLD = World
+    option.WIND = Wind
+    option.WIND.comment = Default: On
+
+    option.WIND_SPEED = Wind Speed
+    option.WIND_SPEED.comment = Default: 0.05
+
+    option.WIND_AMPLITUDE = Wind Amplitude
+    option.WIND_AMPLITUDE.comment = Default: 0.10
+
+screen.MISC = Misc
